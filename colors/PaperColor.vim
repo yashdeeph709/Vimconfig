@@ -14,7 +14,7 @@ let s:version = '0.9.x'
 " - The main section where functions are actually called is located at the end.
 " - The first section right after this note is where themes are defined. Theme
 "   designers only need to work on this section.
-
+set background=light
 " THEMES: {{{
 
 let s:themes = {}

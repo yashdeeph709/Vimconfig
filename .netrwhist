@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start/src/app'
+let g:netrw_dirhist_2='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start/src/app/basic-highlight'
+let g:netrw_dirhist_3='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start/src/app'
+let g:netrw_dirhist_4='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start/src/app/basic-highlight'
+let g:netrw_dirhist_5='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start'
+let g:netrw_dirhist_6='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start/src'
+let g:netrw_dirhist_7='/cygdrive/c/Users/c5244128/Desktop/angularbox/directives-deep-dive/directives-start/src/app'

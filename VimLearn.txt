@@ -1,0 +1,14 @@
+1. Learn vim file management
+2. Learn perfect use of buffers,tabs and splits
+
+
+How to use vim while working on a project.
+
+open tabs which are not actually tab which are windows in which you can open as
+many split's as you want as per your component dependencies.
+
+moving between tabs is not needed frequently so use C+H and C+L for that.
+moving between splits is need frequently so use S+H,S+J,S+K,S+L
+for resizing split's use A+< or A+> and for resing horizontal splits use A+"+"
+and A+"-"
+
