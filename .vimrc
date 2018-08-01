@@ -10,6 +10,7 @@ let mapleader=","
 colorscheme PaperColor
 let s:MODE_256_COLOR = 1
 " set options here
+set pastetoggle=<F2> " Inserting text from windows clipboard
 set background=light
 set complete=.,w,b,u,t,i
 set number relativenumber
@@ -32,8 +33,9 @@ set softtabstop=4
 set shiftwidth=2
 set autoindent
 set textwidth=80
-let g:airline_theme='papercolor'
 set encoding=utf-8
+set foldmethod=manual
+let g:airline_theme='papercolor'
 let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': [],
   \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
@@ -53,6 +55,8 @@ nnoremap <S-J> <C-W><C-J>
 nnoremap <S-K> <C-W><C-K>
 nnoremap <S-L> <C-W><C-L>
 nnoremap <S-H> <C-W><C-H>
+"nnoremap <S-L> :bnext<CR>
+"nnoremap <S-H> :bprevious<CR>
 nnoremap <silent> <A-h> <C-w><
 nnoremap <silent> <A-j> <C-W>-
 nnoremap <silent> <A-k> <C-W>+
@@ -75,6 +79,8 @@ nnoremap <S-d> :bdelete!<cr>
 nnoremap <leader>wq :wq<CR> :bdelete<CR>
 nnoremap <leader>N :NERDTreeToggle<cr>
 nnoremap <leader>diff :r !git diff<cr>
+"nnoremap <leader>l ywggiimport { <ESC>pi } from ''<ESC><CR> //todo for imports
+"in typescripts
 
 " Plugin options setup
 let g:airline#extensions#tabline#enabled = 1
@@ -87,6 +93,7 @@ let g:airline_right_sep = '>'
 let g:airline_left_alt_sep= '<'
 let g:airline_left_sep = '<'
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:ctrlp_cmd = 'CtrlP'
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_flow = 1
